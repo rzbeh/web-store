@@ -1,0 +1,17 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "SuccessRegister";
+}
+
+<h1>Success sign in</h1>
+<div class="alert alert-success">
+
+    hi User whith email : .@Model.Email . you can redirect to store via this link
+
+    <p>
+        <a asp-controller="Account" asp-action="Login">back to store</a>
+
+    </p>
+
+</div>
+
